@@ -1,0 +1,70 @@
+.main-registre {
+    width: 69%;
+    margin-left: 16%;
+    border: 2px solid black;
+    margin-top: 4%;
+    height: 97%;
+    background: black;
+    border-radius: 20px 20px 20px 20px;
+}
+input[type="email"], input[type="password"], input[type="number"]{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    height: 40px;
+    border-radius: 9px 9px;
+    width: 80%;
+    margin-left: 45px;
+    text-align: center;
+}
+input[type="file"]{  
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    height: 40px;
+    border-radius: 9px 9px;
+    width: 80%;
+    margin-left: 45px;
+    text-align: center;
+
+}
+*/* style when password are shown */
+input[type="text"]{
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+	height: 40px;
+	border-radius: 9px 9px;
+	width: 80%;
+	margin-left: 45px;
+	text-align: center;
+}
+form i {
+    color: black;
+    margin-left: 307px;
+    cursor: pointer;
+    position: relative;
+    top: -32px;
+}
+button.btn.btn-block.btn-primary {
+    margin-left: 86px;
+}
+label{
+    margin-left: 45px;
+    font-weight: bold;
+    color: white;
+}
+.btn {
+    margin-left: 45px;
+    width: 80%;
+    border-radius: 9px 9px;
+}
+.text-muted{
+    margin-left: 45px;
+    font-weight: bold;
+    font-size: 20px;
+}
+hr{
+height: 1px;
+background: red;
+}

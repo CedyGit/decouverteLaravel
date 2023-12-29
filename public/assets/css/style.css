@@ -1,0 +1,64 @@
+.main-registre{
+	width: 45%;
+	margin-left: 26%;
+	border: 2px solid black;
+	margin-top: 12%;
+	height: 79%;
+	background: black;
+	border-radius: 20px 20px 20px 20px;
+}
+input[type="email"], input[type="password"]{
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+	height: 40px;
+	border-radius: 9px 9px;
+	width: 80%;
+	margin-left: 45px;
+	text-align: center;
+}
+/* style when password are shown */
+input[type="text"]{
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+	height: 40px;
+	border-radius: 9px 9px;
+	width: 80%;
+	margin-left: 45px;
+	text-align: center;
+}
+
+label{
+	margin-left: 45px;
+	font-weight: bold;
+	color: white;
+}
+.btn {
+	margin-left: 45px;
+	width: 80%;
+	border-radius: 9px 9px;
+}
+.text-muted{
+	margin-left: 45px;
+	font-weight: bold;
+	font-size: 20px;
+}
+hr{
+height: 1px;
+background: chartreuse;
+}
+form i {
+    color: black;
+    margin-left: 400px;
+    cursor: pointer;
+    position: relative;
+    top: -32px;
+}
+.forgetmdp{
+	color: cadetblue;
+	margin-left: 135px;
+}
+.forgetmdp:hover{
+	color: white;
+}
